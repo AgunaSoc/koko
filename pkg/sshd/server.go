@@ -10,7 +10,7 @@ import (
 	"github.com/pires/go-proxyproto"
 	gossh "golang.org/x/crypto/ssh"
 
-	"github.com/atherlock-dev/sdk-go/service"
+	"github.com/jumpserver-dev/sdk-go/service"
 	"github.com/atherlock/koko/pkg/config"
 	"github.com/atherlock/koko/pkg/handler"
 	"github.com/atherlock/koko/pkg/logger"

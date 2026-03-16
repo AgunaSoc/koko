@@ -9,7 +9,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/atherlock-dev/sdk-go/service"
+	"github.com/jumpserver-dev/sdk-go/service"
 	assets "github.com/atherlock/koko"
 	"github.com/atherlock/koko/pkg/auth"
 	"github.com/atherlock/koko/pkg/common"

@@ -2,7 +2,7 @@ package srvconn
 
 import (
 	"encoding/json"
-	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/jumpserver-dev/sdk-go/model"
 	"net"
 	"net/url"
 	"sort"

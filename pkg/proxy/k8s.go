@@ -15,7 +15,7 @@ import (
 	"github.com/atherlock/koko/pkg/srvconn"
 	"k8s.io/client-go/rest"
 
-	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/jumpserver-dev/sdk-go/model"
 	"github.com/atherlock/koko/pkg/logger"
 )
 

@@ -14,8 +14,8 @@ import (
 	"github.com/atherlock/koko/pkg/logger"
 	"github.com/atherlock/koko/pkg/sshd"
 
-	"github.com/atherlock-dev/sdk-go/model"
-	"github.com/atherlock-dev/sdk-go/service"
+	"github.com/jumpserver-dev/sdk-go/model"
+	"github.com/jumpserver-dev/sdk-go/service"
 )
 
 type Koko struct {

@@ -11,8 +11,8 @@ import (
 	"github.com/atherlock/koko/pkg/srvconn"
 	gossh "golang.org/x/crypto/ssh"
 
-	modelCommon "github.com/atherlock-dev/sdk-go/common"
-	"github.com/atherlock-dev/sdk-go/model"
+	modelCommon "github.com/jumpserver-dev/sdk-go/common"
+	"github.com/jumpserver-dev/sdk-go/model"
 	"github.com/atherlock/koko/pkg/auth"
 	"github.com/atherlock/koko/pkg/config"
 	"github.com/atherlock/koko/pkg/logger"

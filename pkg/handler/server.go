@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/atherlock-dev/sdk-go/model"
-	"github.com/atherlock-dev/sdk-go/service"
+	"github.com/jumpserver-dev/sdk-go/model"
+	"github.com/jumpserver-dev/sdk-go/service"
 	"github.com/atherlock/koko/pkg/logger"
 	"github.com/atherlock/koko/pkg/srvconn"
 )

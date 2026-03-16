@@ -15,8 +15,8 @@ import (
 	"github.com/gin-gonic/gin"
 	gorilla "github.com/gorilla/websocket"
 
-	"github.com/atherlock-dev/sdk-go/model"
-	"github.com/atherlock-dev/sdk-go/service"
+	"github.com/jumpserver-dev/sdk-go/model"
+	"github.com/jumpserver-dev/sdk-go/service"
 	"github.com/atherlock/koko/pkg/httpd/ws"
 	"github.com/atherlock/koko/pkg/logger"
 )

@@ -4,8 +4,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/atherlock-dev/sdk-go/model"
-	"github.com/atherlock-dev/sdk-go/service"
+	"github.com/jumpserver-dev/sdk-go/model"
+	"github.com/jumpserver-dev/sdk-go/service"
 	storage "github.com/atherlock/koko/pkg/proxy/recorderstorage"
 )
 

@@ -19,7 +19,7 @@ require (
 	github.com/huaweicloud/huaweicloud-sdk-go-obs v3.25.4+incompatible
 	github.com/influxdata/influxdb-client-go/v2 v2.14.0
 	github.com/jarcoal/httpmock v1.0.4
-	github.com/atherlock-dev/sdk-go v0.0.0-20251124103107-b0606d78540f
+	github.com/jumpserver-dev/sdk-go v0.0.0-20251124103107-b0606d78540f
 	github.com/leonelquinteros/gotext v1.4.0
 	github.com/mediocregopher/radix/v3 v3.8.0
 	github.com/olekukonko/tablewriter v0.0.5
@@ -147,4 +147,4 @@ require (
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )
 
-replace github.com/gliderlabs/ssh => github.com/atherlock-dev/ssh v0.3.10
+replace github.com/gliderlabs/ssh => github.com/jumpserver-dev/ssh v0.3.10

@@ -10,8 +10,8 @@ import (
 
 	storage "github.com/atherlock/koko/pkg/proxy/recorderstorage"
 
-	"github.com/atherlock-dev/sdk-go/model"
-	"github.com/atherlock-dev/sdk-go/service"
+	"github.com/jumpserver-dev/sdk-go/model"
+	"github.com/jumpserver-dev/sdk-go/service"
 	"github.com/atherlock/koko/pkg/asciinema"
 	"github.com/atherlock/koko/pkg/common"
 	"github.com/atherlock/koko/pkg/config"

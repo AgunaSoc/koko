@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/jumpserver-dev/sdk-go/model"
 	"github.com/atherlock/koko/pkg/common"
 	"github.com/atherlock/koko/pkg/logger"
 	"github.com/sashabaranov/go-openai"

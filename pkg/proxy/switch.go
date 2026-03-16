@@ -9,8 +9,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/atherlock-dev/sdk-go/common"
-	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/jumpserver-dev/sdk-go/common"
+	"github.com/jumpserver-dev/sdk-go/model"
 	"github.com/atherlock/koko/pkg/exchange"
 	"github.com/atherlock/koko/pkg/logger"
 	"github.com/atherlock/koko/pkg/srvconn"
