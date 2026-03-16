@@ -11,9 +11,9 @@ import (
 	"github.com/gliderlabs/ssh"
 	gossh "golang.org/x/crypto/ssh"
 
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver-dev/sdk-go/service"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock-dev/sdk-go/service"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 type authOptions struct {

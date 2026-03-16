@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"github.com/jumpserver/koko/pkg/i18n"
+	"github.com/atherlock/koko/pkg/i18n"
 )
 
 func (u *UserSelectHandler) displayDatabaseResult(searchHeader string) {

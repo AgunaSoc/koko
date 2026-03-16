@@ -12,7 +12,7 @@ import (
 
 	"github.com/sashabaranov/go-openai"
 
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 type TransportOptions struct {

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
 
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 type OSSReplayStorage struct {

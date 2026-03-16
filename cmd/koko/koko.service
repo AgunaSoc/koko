@@ -1,5 +1,5 @@
 [Unit]
-Description=JumpServer KoKo Service
+Description=Atherlock KoKo Service
 After=network.target
 
 [Service]

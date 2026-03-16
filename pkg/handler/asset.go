@@ -9,14 +9,14 @@ import (
 
 	"golang.org/x/term"
 
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver-dev/sdk-go/service"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock-dev/sdk-go/service"
 
-	"github.com/jumpserver/koko/pkg/i18n"
-	"github.com/jumpserver/koko/pkg/logger"
-	"github.com/jumpserver/koko/pkg/proxy"
-	"github.com/jumpserver/koko/pkg/srvconn"
-	"github.com/jumpserver/koko/pkg/utils"
+	"github.com/atherlock/koko/pkg/i18n"
+	"github.com/atherlock/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/proxy"
+	"github.com/atherlock/koko/pkg/srvconn"
+	"github.com/atherlock/koko/pkg/utils"
 )
 
 func (u *UserSelectHandler) retrieveRemoteAsset(reqParam model.PaginationParam) []model.PermAsset {

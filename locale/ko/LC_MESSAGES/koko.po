@@ -120,8 +120,8 @@ msgstr "%s 노드에 자산이 없습니다"
 
 #. lang.T
 #: pkg/handler/banner.go:30
-msgid "Welcome to use JumpServer open source fortress system"
-msgstr "JumpServer 오픈 소스 요새 호스트 시스템에 오신 것을 환영합니다"
+msgid "Welcome to use Atherlock open source fortress system"
+msgstr "Atherlock 오픈 소스 요새 호스트 시스템에 오신 것을 환영합니다"
 
 #. lang.T
 #: pkg/handler/banner.go:32

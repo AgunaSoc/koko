@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver/koko/pkg/common"
-	"github.com/jumpserver/koko/pkg/i18n"
-	"github.com/jumpserver/koko/pkg/logger"
-	"github.com/jumpserver/koko/pkg/utils"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock/koko/pkg/common"
+	"github.com/atherlock/koko/pkg/i18n"
+	"github.com/atherlock/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/utils"
 )
 
 func (h *InteractiveHandler) Dispatch() {

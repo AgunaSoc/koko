@@ -9,9 +9,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/jumpserver/koko/pkg/common"
-	"github.com/jumpserver/koko/pkg/config"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/common"
+	"github.com/atherlock/koko/pkg/config"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 var k8sProxyDirname = "k8s_proxy"
@@ -121,14 +121,14 @@ clusters:
 contexts:
 - context:
     cluster: kubernetes
-    user: JumpServer-user
+    user: Atherlock-user
     namespace: %s
   name: kubernetes
 current-context: kubernetes
 kind: Config
 preferences: {}
 users:
-- name: JumpServer-user
+- name: Atherlock-user
   user:
     token: %s
 `

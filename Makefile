@@ -19,7 +19,7 @@ KOKOLDFLAGS+=-X 'main.Buildstamp=$(BuildTime)'
 KOKOLDFLAGS+=-X 'main.Githash=$(COMMIT)'
 KOKOLDFLAGS+=-X 'main.Goversion=$(GOVERSION)'
 KOKOLDFLAGS+=-X 'main.Version=$(VERSION)'
-KOKOLDFLAGS+=-X 'github.com/jumpserver/koko/pkg/config.CipherKey=$(CipherKey)'
+KOKOLDFLAGS+=-X 'github.com/atherlock/koko/pkg/config.CipherKey=$(CipherKey)'
 
 KOKOBUILD=CGO_ENABLED=0 go build -trimpath -ldflags "$(KOKOLDFLAGS) ${LDFLAGS}"
 
@@ -91,12 +91,12 @@ koko-ui:
 .PHONY: docker
 docker:
 	@echo "build docker images"
-	docker buildx build --build-arg VERSION=$(VERSION) -t jumpserver/koko:$(VERSION)-ce . --load
+	docker buildx build --build-arg VERSION=$(VERSION) -t atherlock/koko:$(VERSION)-ce . --load
 
 .PHONY: docker-ee
 docker-ee:docker
 	@echo "build docker images"
-	docker buildx build --build-arg VERSION=$(VERSION) -t jumpserver/koko-ee:$(VERSION)-ce -f Dockerfile-ee . --load
+	docker buildx build --build-arg VERSION=$(VERSION) -t atherlock/koko-ee:$(VERSION)-ce -f Dockerfile-ee . --load
 
 .PHONY: clean
 clean:

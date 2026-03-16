@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jumpserver/koko/pkg/koko"
+	"github.com/atherlock/koko/pkg/koko"
 )
 
 var (
@@ -40,7 +40,7 @@ func main() {
 const (
 	timeFormat      = "2006-01-02 15:04:05"
 	startWelcomeMsg = `%s
-KoKo Version %s, more see https://www.jumpserver.com
+KoKo Version %s, more see https://www.atherlock.com
 Quit the server with CONTROL-C.
 `
 )

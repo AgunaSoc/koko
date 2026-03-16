@@ -11,14 +11,14 @@ import (
 	"github.com/gliderlabs/ssh"
 	"golang.org/x/term"
 
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver-dev/sdk-go/service"
-	"github.com/jumpserver/koko/pkg/common"
-	"github.com/jumpserver/koko/pkg/i18n"
-	"github.com/jumpserver/koko/pkg/logger"
-	"github.com/jumpserver/koko/pkg/proxy"
-	"github.com/jumpserver/koko/pkg/srvconn"
-	"github.com/jumpserver/koko/pkg/utils"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock-dev/sdk-go/service"
+	"github.com/atherlock/koko/pkg/common"
+	"github.com/atherlock/koko/pkg/i18n"
+	"github.com/atherlock/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/proxy"
+	"github.com/atherlock/koko/pkg/srvconn"
+	"github.com/atherlock/koko/pkg/utils"
 )
 
 /*
@@ -27,7 +27,7 @@ import (
 1. JMS_username[@mysql|ssh|redis]@account_username@asset_target
 2. JMS_username[#mysql|ssh|redis]#account_username#asset_target
 
-JMS_username: 			JumpServer 平台上的用户名
+JMS_username: 			Atherlock 平台上的用户名
 account_username：	    对应账号的用户名
 asset_target: 			对应资产的ip 或者 id
 

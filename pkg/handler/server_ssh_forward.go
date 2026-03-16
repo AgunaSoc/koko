@@ -8,15 +8,15 @@ import (
 	"strconv"
 
 	"github.com/gliderlabs/ssh"
-	"github.com/jumpserver/koko/pkg/srvconn"
+	"github.com/atherlock/koko/pkg/srvconn"
 	gossh "golang.org/x/crypto/ssh"
 
-	modelCommon "github.com/jumpserver-dev/sdk-go/common"
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver/koko/pkg/auth"
-	"github.com/jumpserver/koko/pkg/config"
-	"github.com/jumpserver/koko/pkg/logger"
-	"github.com/jumpserver/koko/pkg/session"
+	modelCommon "github.com/atherlock-dev/sdk-go/common"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock/koko/pkg/auth"
+	"github.com/atherlock/koko/pkg/config"
+	"github.com/atherlock/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/session"
 )
 
 const (

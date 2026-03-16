@@ -114,7 +114,7 @@ msgstr ""
 
 #. lang.T
 #: pkg/handler/banner.go:30
-msgid "Welcome to use JumpServer open source fortress system"
+msgid "Welcome to use Atherlock open source fortress system"
 msgstr ""
 
 #. lang.T

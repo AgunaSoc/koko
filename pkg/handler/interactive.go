@@ -13,14 +13,14 @@ import (
 	"github.com/xlab/treeprint"
 	"golang.org/x/term"
 
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver-dev/sdk-go/service"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock-dev/sdk-go/service"
 
-	"github.com/jumpserver/koko/pkg/common"
-	"github.com/jumpserver/koko/pkg/config"
-	"github.com/jumpserver/koko/pkg/i18n"
-	"github.com/jumpserver/koko/pkg/logger"
-	"github.com/jumpserver/koko/pkg/utils"
+	"github.com/atherlock/koko/pkg/common"
+	"github.com/atherlock/koko/pkg/config"
+	"github.com/atherlock/koko/pkg/i18n"
+	"github.com/atherlock/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/utils"
 )
 
 func NewInteractiveHandler(sess ssh.Session, user *model.User, jmsService *service.JMService,

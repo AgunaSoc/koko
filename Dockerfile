@@ -1,4 +1,4 @@
-FROM jumpserver/koko-base:20251229_100745 AS stage-build
+FROM atherlock/koko-base:20251229_100745 AS stage-build
 
 WORKDIR /opt/koko
 ARG TARGETARCH
@@ -28,8 +28,8 @@ FROM debian:trixie
 ARG TARGETARCH
 ENV LANG=en_US.UTF-8
 
-LABEL org.opencontainers.image.source=https://github.com/jumpserver/koko
-LABEL org.opencontainers.image.description="JumpServer Koko"
+LABEL org.opencontainers.image.source=https://github.com/atherlock/koko
+LABEL org.opencontainers.image.description="Atherlock Koko"
 
 
 ARG DEPENDENCIES="                    \

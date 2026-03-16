@@ -7,8 +7,8 @@ import (
 
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 type InfluxdbStorage struct {

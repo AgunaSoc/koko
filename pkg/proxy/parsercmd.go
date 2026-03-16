@@ -12,7 +12,7 @@ import (
 	"unicode"
 
 	"github.com/LeeEirc/terminalparser"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 var terminalDebug = false

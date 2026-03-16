@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/logger"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 
-	"github.com/jumpserver/koko/pkg/localcommand"
+	"github.com/atherlock/koko/pkg/localcommand"
 )
 
 const (

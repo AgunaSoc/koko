@@ -8,17 +8,17 @@ import (
 	"io"
 	"time"
 
-	"github.com/jumpserver/koko/pkg/i18n"
-	"github.com/jumpserver/koko/pkg/proxy"
-	"github.com/jumpserver/koko/pkg/srvconn"
+	"github.com/atherlock/koko/pkg/i18n"
+	"github.com/atherlock/koko/pkg/proxy"
+	"github.com/atherlock/koko/pkg/srvconn"
 
 	"github.com/gin-gonic/gin"
 	gorilla "github.com/gorilla/websocket"
 
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver-dev/sdk-go/service"
-	"github.com/jumpserver/koko/pkg/httpd/ws"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock-dev/sdk-go/service"
+	"github.com/atherlock/koko/pkg/httpd/ws"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 type Handler interface {

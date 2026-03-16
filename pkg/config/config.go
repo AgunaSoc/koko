@@ -9,13 +9,13 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/jumpserver/koko/pkg/common"
+	"github.com/atherlock/koko/pkg/common"
 )
 
 var (
-	CipherKey = "JumpServer Cipher Key for KoKo !"
+	CipherKey = "Atherlock Cipher Key for KoKo !"
 
-	KubectlBanner = "Welcome to JumpServer kubectl, try kubectl --help."
+	KubectlBanner = "Welcome to Atherlock kubectl, try kubectl --help."
 )
 
 type Config struct {

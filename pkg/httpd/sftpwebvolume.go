@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/jumpserver/koko/pkg/common"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/common"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 const (

@@ -9,13 +9,13 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/jumpserver-dev/sdk-go/common"
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver/koko/pkg/exchange"
-	"github.com/jumpserver/koko/pkg/logger"
-	"github.com/jumpserver/koko/pkg/srvconn"
-	"github.com/jumpserver/koko/pkg/utils"
-	"github.com/jumpserver/koko/pkg/zmodem"
+	"github.com/atherlock-dev/sdk-go/common"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock/koko/pkg/exchange"
+	"github.com/atherlock/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/srvconn"
+	"github.com/atherlock/koko/pkg/utils"
+	"github.com/atherlock/koko/pkg/zmodem"
 )
 
 type SwitchSession struct {

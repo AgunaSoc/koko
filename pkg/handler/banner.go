@@ -7,10 +7,10 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver/koko/pkg/i18n"
-	"github.com/jumpserver/koko/pkg/logger"
-	"github.com/jumpserver/koko/pkg/utils"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock/koko/pkg/i18n"
+	"github.com/atherlock/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/utils"
 )
 
 type MenuItem struct {
@@ -27,7 +27,7 @@ type ColorMeta struct {
 
 func (h *InteractiveHandler) displayBanner(sess io.ReadWriter, user string, termConf *model.TerminalConfig) {
 	lang := i18n.NewLang(h.i18nLang)
-	defaultTitle := utils.WrapperTitle(lang.T("Welcome to use JumpServer open source fortress system"))
+	defaultTitle := utils.WrapperTitle(lang.T("Welcome to use Atherlock open source fortress system"))
 	menu := Menu{
 		{instruct: lang.T("part IP, Hostname, Comment"), helpText: lang.T("to search login if unique")},
 		{instruct: lang.T("/ + IP, Hostname, Comment"), helpText: lang.T("to search, such as: /192.168")},

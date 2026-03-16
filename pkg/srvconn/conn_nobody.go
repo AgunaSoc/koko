@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/jumpserver/koko/pkg/localcommand"
+	"github.com/atherlock/koko/pkg/localcommand"
 )
 
 var debug string

@@ -3,9 +3,9 @@ package httpd
 import (
 	"time"
 
-	"github.com/jumpserver/koko/pkg/exchange"
+	"github.com/atherlock/koko/pkg/exchange"
 
-	"github.com/jumpserver-dev/sdk-go/model"
+	"github.com/atherlock-dev/sdk-go/model"
 )
 
 type Message struct {

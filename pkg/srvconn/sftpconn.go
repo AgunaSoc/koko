@@ -10,9 +10,9 @@ import (
 
 	"github.com/pkg/sftp"
 
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver-dev/sdk-go/service"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock-dev/sdk-go/service"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 var errNoSelectAsset = errors.New("please select one of the assets")

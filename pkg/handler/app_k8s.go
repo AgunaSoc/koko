@@ -3,9 +3,9 @@ package handler
 import (
 	"fmt"
 
-	"github.com/jumpserver/koko/pkg/common"
-	"github.com/jumpserver/koko/pkg/i18n"
-	"github.com/jumpserver/koko/pkg/utils"
+	"github.com/atherlock/koko/pkg/common"
+	"github.com/atherlock/koko/pkg/i18n"
+	"github.com/atherlock/koko/pkg/utils"
 )
 
 func (u *UserSelectHandler) displayK8sResult(searchHeader string) {

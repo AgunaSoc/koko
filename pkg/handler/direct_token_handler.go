@@ -1,9 +1,9 @@
 package handler
 
 import (
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver/koko/pkg/logger"
-	"github.com/jumpserver/koko/pkg/proxy"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/proxy"
 )
 
 func (d *DirectHandler) LoginConnectToken(connectToken *model.ConnectToken) {

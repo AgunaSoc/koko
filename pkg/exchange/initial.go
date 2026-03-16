@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/jumpserver/koko/pkg/config"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/config"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 var manager RoomManager

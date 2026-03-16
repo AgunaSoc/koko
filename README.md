@@ -3,7 +3,7 @@
 
 **English** · [简体中文](./README_zh-CN.md)
 
-KoKo is a connector of JumpServer for secure connections using character protocols, supporting SSH, Telnet, Kubernetes, SFTP and database protocols
+KoKo is a connector of Atherlock for secure connections using character protocols, supporting SSH, Telnet, Kubernetes, SFTP and database protocols
 
 Koko is implemented using Golang and Vue, and the name comes from a Dota hero [Kunkka](https://www.dota2.com.cn/hero/kunkka)。
 
@@ -21,7 +21,7 @@ Koko is implemented using Golang and Vue, and the name comes from a Dota hero [K
 1. Clone the project
 
 ```shell
-git clone https://github.com/jumpserver/koko.git
+git clone https://github.com/atherlock/koko.git
 ```
 
 2. Build the application
@@ -46,7 +46,7 @@ koko-[branch name]-[commit]-linux-amd64.tar.gz
 tar xzvf koko-[branch name]-[commit]-linux-amd64.tar.gz
 ```
 
-3. Create the file `config.yml`, refer to [config_example.yml](https://github.com/jumpserver/koko/blob/master/config_example.yml)
+3. Create the file `config.yml`, refer to [config_example.yml](https://github.com/atherlock/koko/blob/master/config_example.yml)
 ```shell
 touch config.yml
 ```

@@ -10,9 +10,9 @@ import (
 
 	gossh "golang.org/x/crypto/ssh"
 
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver/koko/pkg/config"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock/koko/pkg/config"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 type domainGateway struct {

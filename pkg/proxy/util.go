@@ -4,9 +4,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver-dev/sdk-go/service"
-	storage "github.com/jumpserver/koko/pkg/proxy/recorderstorage"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock-dev/sdk-go/service"
+	storage "github.com/atherlock/koko/pkg/proxy/recorderstorage"
 )
 
 type StorageType interface {
@@ -92,7 +92,7 @@ func GetStorage(conf *model.TerminalConfig) Storage {
 			region = ParseEndpointRegion(endpoint)
 		}
 		if bucket == "" {
-			bucket = "jumpserver"
+			bucket = "atherlock"
 		}
 		return storage.S3ReplayStorage{
 			Bucket:    bucket,
@@ -153,7 +153,7 @@ func NewCommandStorage(jmsService *service.JMService, conf *model.TerminalConfig
 		{
 		'DOC_TYPE': 'command',
 		  'HOSTS': ['http://172.16.10.122:9200'],
-		  'INDEX': 'jumpserver',
+		  'INDEX': 'atherlock',
 		  'OTHER': {'IGNORE_VERIFY_CERTS': True, 'IS_INDEX_DATASTREAM': True},
 		  'TYPE': 'es'
 		}
@@ -171,7 +171,7 @@ func NewCommandStorage(jmsService *service.JMService, conf *model.TerminalConfig
 		}
 
 		if index == "" {
-			index = "jumpserver"
+			index = "atherlock"
 		}
 		if docType == "" {
 			docType = "_doc"
@@ -197,7 +197,7 @@ func NewCommandStorage(jmsService *service.JMService, conf *model.TerminalConfig
 		measurement = cf.Measurement
 
 		if bucket == "" {
-			bucket = "jumpserver"
+			bucket = "atherlock"
 		}
 		if measurement == "" {
 			measurement = "commands"

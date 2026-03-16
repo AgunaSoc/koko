@@ -1,9 +1,9 @@
 package httpd
 
 import (
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver/koko/pkg/common"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock/koko/pkg/common"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 var _ Handler = (*webFolder)(nil)

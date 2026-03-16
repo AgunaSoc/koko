@@ -6,7 +6,7 @@ import (
 
 	"github.com/gliderlabs/ssh"
 
-	"github.com/jumpserver/koko/pkg/exchange"
+	"github.com/atherlock/koko/pkg/exchange"
 )
 
 type UserConnection interface {

@@ -10,10 +10,10 @@ import (
 	"github.com/pires/go-proxyproto"
 	gossh "golang.org/x/crypto/ssh"
 
-	"github.com/jumpserver-dev/sdk-go/service"
-	"github.com/jumpserver/koko/pkg/config"
-	"github.com/jumpserver/koko/pkg/handler"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock-dev/sdk-go/service"
+	"github.com/atherlock/koko/pkg/config"
+	"github.com/atherlock/koko/pkg/handler"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 const (
@@ -73,7 +73,7 @@ func NewSSHServer(jmsService *service.JMService) *Server {
 		Addr:             addr,
 		PasswordHandler:  sshHandler.PasswordAuth,
 		PublicKeyHandler: sshHandler.PublicKeyAuth,
-		Version:          "JumpServer",
+		Version:          "Atherlock",
 		HostSigners:      []ssh.Signer{singer},
 		MaxSessions:      int32(cf.SshMaxSessions),
 		ServerConfigCallback: func(ctx ssh.Context) *gossh.ServerConfig {

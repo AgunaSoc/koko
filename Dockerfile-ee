@@ -1,6 +1,6 @@
 ARG VERSION=dev
 
-FROM jumpserver/koko:${VERSION}-ce
+FROM atherlock/koko:${VERSION}-ce
 ARG TARGETARCH
 
 ARG DEPENDENCIES="                    \

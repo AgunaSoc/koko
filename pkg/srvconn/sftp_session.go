@@ -3,11 +3,11 @@ package srvconn
 import (
 	"sync"
 
-	"github.com/jumpserver-dev/sdk-go/common"
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver-dev/sdk-go/service"
-	"github.com/jumpserver/koko/pkg/logger"
-	"github.com/jumpserver/koko/pkg/session"
+	"github.com/atherlock-dev/sdk-go/common"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock-dev/sdk-go/service"
+	"github.com/atherlock/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/session"
 )
 
 type SftpSession struct {

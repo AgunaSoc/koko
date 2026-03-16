@@ -117,8 +117,8 @@ msgstr "В папке %s нет активов"
 
 #. lang.T
 #: pkg/handler/banner.go:30
-msgid "Welcome to use JumpServer open source fortress system"
-msgstr "Добро пожаловать в JumpServer"
+msgid "Welcome to use Atherlock open source fortress system"
+msgstr "Добро пожаловать в Atherlock"
 
 #. lang.T
 #: pkg/handler/banner.go:32

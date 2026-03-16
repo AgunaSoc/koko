@@ -12,11 +12,11 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/jumpserver/koko/pkg/srvconn"
+	"github.com/atherlock/koko/pkg/srvconn"
 	"k8s.io/client-go/rest"
 
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 const (

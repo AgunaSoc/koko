@@ -14,10 +14,10 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	"github.com/jumpserver/koko/pkg/config"
-	"github.com/jumpserver/koko/pkg/localcommand"
-	"github.com/jumpserver/koko/pkg/logger"
-	"github.com/jumpserver/koko/pkg/utils"
+	"github.com/atherlock/koko/pkg/config"
+	"github.com/atherlock/koko/pkg/localcommand"
+	"github.com/atherlock/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/utils"
 )
 
 var (

@@ -9,12 +9,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/jumpserver-dev/sdk-go/service"
-	assets "github.com/jumpserver/koko"
-	"github.com/jumpserver/koko/pkg/auth"
-	"github.com/jumpserver/koko/pkg/common"
-	"github.com/jumpserver/koko/pkg/config"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock-dev/sdk-go/service"
+	assets "github.com/atherlock/koko"
+	"github.com/atherlock/koko/pkg/auth"
+	"github.com/atherlock/koko/pkg/common"
+	"github.com/atherlock/koko/pkg/config"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 func getStaticFS() http.FileSystem {

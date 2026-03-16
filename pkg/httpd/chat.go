@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver/koko/pkg/common"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock/koko/pkg/common"
+	"github.com/atherlock/koko/pkg/logger"
 	"github.com/sashabaranov/go-openai"
 
-	"github.com/jumpserver/koko/pkg/srvconn"
+	"github.com/atherlock/koko/pkg/srvconn"
 )
 
 var _ Handler = (*chat)(nil)

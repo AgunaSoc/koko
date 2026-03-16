@@ -114,8 +114,8 @@ msgstr "%s節點沒有資產"
 
 #. lang.T
 #: pkg/handler/banner.go:30
-msgid "Welcome to use JumpServer open source fortress system"
-msgstr "歡迎使用JumpServer開源堡壘機系統"
+msgid "Welcome to use Atherlock open source fortress system"
+msgstr "歡迎使用Atherlock開源堡壘機系統"
 
 #. lang.T
 #: pkg/handler/banner.go:32

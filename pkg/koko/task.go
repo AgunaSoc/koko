@@ -9,14 +9,14 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/jumpserver-dev/sdk-go/common"
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver-dev/sdk-go/service"
+	"github.com/atherlock-dev/sdk-go/common"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock-dev/sdk-go/service"
 
-	"github.com/jumpserver/koko/pkg/config"
-	"github.com/jumpserver/koko/pkg/logger"
-	"github.com/jumpserver/koko/pkg/proxy"
-	"github.com/jumpserver/koko/pkg/session"
+	"github.com/atherlock/koko/pkg/config"
+	"github.com/atherlock/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/proxy"
+	"github.com/atherlock/koko/pkg/session"
 )
 
 // uploadRemainReplay 上传遗留的录像

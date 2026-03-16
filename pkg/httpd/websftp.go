@@ -3,8 +3,8 @@ package httpd
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/jumpserver/koko/pkg/logger"
-	"github.com/jumpserver/koko/pkg/session"
+	"github.com/atherlock/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/session"
 	"io"
 	"strconv"
 )

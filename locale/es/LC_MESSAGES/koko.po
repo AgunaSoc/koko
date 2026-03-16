@@ -122,8 +122,8 @@ msgstr "El nodo %s no tiene activos"
 
 #. lang.T
 #: pkg/handler/banner.go:30
-msgid "Welcome to use JumpServer open source fortress system"
-msgstr "Bienvenido al sistema JumpServer de fortaleza de código abierto"
+msgid "Welcome to use Atherlock open source fortress system"
+msgstr "Bienvenido al sistema Atherlock de fortaleza de código abierto"
 
 #. lang.T
 #: pkg/handler/banner.go:32

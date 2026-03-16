@@ -6,7 +6,7 @@ import (
 
 	"github.com/mediocregopher/radix/v3"
 
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 var _ io.WriteCloser = (*redisChannel)(nil)

@@ -1,8 +1,8 @@
 package recorderstorage
 
 import (
-	"github.com/jumpserver-dev/sdk-go/model"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock-dev/sdk-go/model"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 func NewNullStorage() (storage NullStorage) {

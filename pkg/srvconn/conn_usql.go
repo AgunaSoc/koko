@@ -2,14 +2,14 @@ package srvconn
 
 import (
 	"encoding/json"
-	"github.com/jumpserver-dev/sdk-go/model"
+	"github.com/atherlock-dev/sdk-go/model"
 	"net"
 	"net/url"
 	"sort"
 	"strconv"
 	"time"
 
-	"github.com/jumpserver/koko/pkg/localcommand"
+	"github.com/atherlock/koko/pkg/localcommand"
 )
 
 var (

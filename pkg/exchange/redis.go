@@ -13,16 +13,16 @@ import (
 
 	"github.com/mediocregopher/radix/v3"
 
-	"github.com/jumpserver/koko/pkg/common"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/common"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 const (
-	globalRoomsKey = "JUMPSERVER:KOKO:ROOMS"
+	globalRoomsKey = "ATHERLOCK:KOKO:ROOMS"
 
-	eventsChannel = "JUMPSERVER:KOKO:EVENTS:CHANNEL"
+	eventsChannel = "ATHERLOCK:KOKO:EVENTS:CHANNEL"
 
-	resultsChannel = "JUMPSERVER:KOKO:EVENTS:RESULT"
+	resultsChannel = "ATHERLOCK:KOKO:EVENTS:RESULT"
 
 	sessionsChannelPrefix = "JMS:KOKO:SESSIONS:"
 )

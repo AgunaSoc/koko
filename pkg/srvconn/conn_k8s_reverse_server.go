@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/atherlock/koko/pkg/logger"
 )
 
 var (

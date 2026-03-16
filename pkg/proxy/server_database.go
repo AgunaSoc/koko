@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/jumpserver/koko/pkg/srvconn"
+	"github.com/atherlock/koko/pkg/srvconn"
 )
 
 var usqlProtocolAlias = map[string]string{
